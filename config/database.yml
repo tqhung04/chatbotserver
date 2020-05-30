@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  host: 0.0.0.0
+  port: 5432
+  encoding: utf8
+  pool: 5
+  username: hung
+  password: password
+  reconnect: false
+
+development:
+  <<: *default
+  database: chat_develop_db
+
+test:
+  <<: *default
+  database: myapp_test
+
+production:
+  <<: *default
+  database: myapp_production

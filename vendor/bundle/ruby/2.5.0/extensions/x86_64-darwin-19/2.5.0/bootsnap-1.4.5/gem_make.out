@@ -1,0 +1,15 @@
+current directory: /Users/hung/Desktop/Learning/chat_server/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+/Users/hung/.rvm/rubies/ruby-2.5.6/bin/ruby -r ./siteconf20200530-91808-4zkvyd.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hung/Desktop/Learning/chat_server/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/hung/Desktop/Learning/chat_server/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/hung/Desktop/Learning/chat_server/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20200530-91808-d9li9t/bootsnap

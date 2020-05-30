@@ -1,0 +1,19 @@
+current directory: /Users/hung/Desktop/Learning/chat_server/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+/Users/hung/.rvm/rubies/ruby-2.5.6/bin/ruby -r ./siteconf20200530-91808-1k22imv.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hung/Desktop/Learning/chat_server/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/hung/Desktop/Learning/chat_server/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/hung/Desktop/Learning/chat_server/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20200530-91808-1e1tv1m/byebug
